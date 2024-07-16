@@ -2,19 +2,28 @@
 
 export const Onboarding_page = [
     {
+        img: "/images/bg.png",
         title: "We serve incomparable delicacies",
-        description: "All the best restaurants with their top menu waiting for you, they cant’t wait for your order!!",
-        img: "/images/bg.png"
+        description: "All the best restaurants with their top menu waiting for you, they cant’t wait for your order!!"
+
     }
 ]
 export const Onboarding2_info = [
     {
+        img: "/images/bg2.png",
         title: "We serve incomparable delicacies",
-        description: "All the best restaurants with their top menu waiting for you, they cant’t wait",
-        img: "/images/bg2.png"
+        description: "All the best restaurants with their top menu waiting for you, they cant’t wait"
+
     }
 ]
+export const Onboarding3_info = [
+    {
+        img: "/images/bg2.png",
+        title: "We serve incomparable delicacies",
+        description: "All the best restaurants with their top menu waiting for you, they cant’t wait"
 
+    }
+]
 
 export const LoginInfo = [
     {
