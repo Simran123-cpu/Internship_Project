@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://{Simran123-cpu}.github.io/{Internship_Project}",
+  "homepage": "https://github.com/Simran123-cpu/Internship_Project",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "react": "^18.3.1",
