@@ -1,6 +1,8 @@
 // src/Onboarding.jsx
 import React, { useState } from 'react';
 import { IoIosArrowDropright } from "react-icons/io";
+import bgImage from '../../public/images/bg.png';
+import bgImage2 from '../../public/images/bg2.png';
 import { Onboarding2_info, Onboarding3_info, Onboarding_page } from '../Info';
 
 const Onboarding = ({ navigateTo }) => {
@@ -24,7 +26,7 @@ const Onboarding = ({ navigateTo }) => {
                 <div
                     className='min-h-screen bg-no-repeat p-0'
                     style={{
-                        backgroundImage: `url(${Onboarding_page[0].img})`,
+                        backgroundImage: `url(${bgImage})`,
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
                         height: "100vh",
@@ -47,7 +49,7 @@ const Onboarding = ({ navigateTo }) => {
                 <div
                     className='min-h-screen bg-no-repeat p-0'
                     style={{
-                        backgroundImage: `url(${Onboarding2_info[0].img})`,
+                        backgroundImage: `url(${bgImage2})`,
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
                         height: "100vh",
