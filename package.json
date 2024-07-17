@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Simran123-cpu.github.io/Internship_Project",
   "name": "internship-project",
   "private": true,
   "version": "0.0.0",
@@ -9,9 +10,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://github.com/Simran123-cpu/Internship_Project",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "react": "^18.3.1",

@@ -42,7 +42,7 @@ const Register = () => {
                             <p className='mx-4 mb-5'>or Sign In with</p>
                             <div className='flex-grow border-t border-gray-600'></div>
                         </div>
-                        <div className="flex justify-center mx-auto border-2 border-gray-400 rounded-full  h-10 w-10 mb-5">
+                        <div className="flex justify-center mx-auto border-2 border-gray-400 rounded-full h-10 w-10 mb-5">
                             <FcGoogle className='text-4xl  ' />
                         </div>
                         <div className='flex justify-center '>
