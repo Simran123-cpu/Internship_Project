@@ -72,7 +72,7 @@ const Onboarding = ({ navigateTo }) => {
                 <div
                     className='min-h-screen bg-no-repeat p-0'
                     style={{
-                        backgroundImage: `url(${Onboarding3_info[0].img})`,
+                        backgroundImage: `url(${bgImage2})`,
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
                         height: "100vh",
